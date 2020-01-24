@@ -16,13 +16,13 @@
             <nav>
                 <ol>
                     <li>
-                        <a href="">Portafolio</a>
+                        <a href="#portafolio">Portafolio</a>
                     </li>
                     <li>
-                        <a href="">Experiencia</a>
+                        <a href="#eventos">Eventos</a>
                     </li>
                     <li>
-                        <a href="">Trabajemos Juntos</a>
+                        <a href="#contacto">Trabajemos Juntos</a>
                     </li> 
                 </ol>
             </nav>
@@ -32,9 +32,9 @@
         <h1>
             Hola! Soy <strong>Anthony Trillo</strong>  <br> Desarrollador Fullstack
         </h1>
-        <img src="" alt="">Imagen de portada
+        <img src="images/hero.jpg" width="500" height="300" alt="Imagen principal">
     </section>
-    <section>
+    <section id="portafolio">
         <h2>Portafolio (Proyectos Destacados)</h2>
         <article>
             <h3>Dh Electronics</h3>
@@ -59,7 +59,7 @@
         </article>
     </section>
 
-    <section>
+    <section id="eventos">
         <h2>Más sobre mi experiencia</h2>
         <article>
             <figure>
@@ -71,7 +71,13 @@
         </article>
     </section>
 
-    <section>sección contacto</section>
+    <section id="contacto">
+        <form action="/suscripcion/">
+            <h3>¿Creamos algo juntos?</h3>
+            <input type="text" placeholder="Déjame tu email" value="" id="email">
+            <button>Enviar</button>
+        </form>
+    </section>
     <footer>footer</footer>
 </body>
 </html>
