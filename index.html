@@ -6,78 +6,78 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Anthony Trillo</title>
     <link rel="icon" type="image/jpg"href="images/logo.jpg">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <header>
         <div>
-            <figure>
+            <figure class="logo">
                 <img src="images/logo.jpg" alt="Logo de http://anthonytrillo.com">
             </figure>
-            <nav>
+            <nav class="menu">
                 <ol>
                     <li>
-                        <a href="#portafolio">Portafolio</a>
+                        <a class="link" href="#portafolio">Portafolio</a>
                     </li>
                     <li>
-                        <a href="#eventos">Eventos</a>
+                        <a class="link" href="#eventos">Eventos</a>
                     </li>
                     <li>
-                        <a href="#contacto">Trabajemos Juntos</a>
+                        <a class="link" href="#contacto">Trabajemos Juntos</a>
                     </li> 
                 </ol>
             </nav>
         </div>
     </header>
-    <section>
+    <section class="hero">
         <h1>
             Hola! Soy <strong>Anthony Trillo</strong>  <br> Desarrollador Fullstack
         </h1>
         <img src="images/hero.jpg" width="500" height="300" alt="Imagen principal">
     </section>
-    <section id="portafolio">
+    <section id="portafolio" class="portfolio">
         <h2>Portafolio (Proyectos Destacados)</h2>
-        <article>
-            <h3>Dh Electronics</h3>
-            <h6>PHP - Laravel</h6>
-            <p><small><strong>Fecha:</strong> 10/01/2020</small></p>
-            <p><small><strong>Puedes verlo en:</strong> www.dhelectronics.dhalumnos.com</small></p>
-            <p>Dh Electronics es un e-commerce desarrollado en colaboración con 3 programadores en el marco de enseñanza de Digital House Coding School</p>
+        <article class="project">
+            <h3 class="project-title">Dh Electronics</h3>
+            <h6 class="project-course">PHP - Laravel</h6>
+            <p class="project-date"><small><strong>Fecha:</strong> 9/09/2019</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en:</strong> www.dhelectronics.dhalumnos.com</small></p>
+            <p class="project-description">Dh Electronics es un e-commerce desarrollado en colaboración con 3 programadores en el marco de enseñanza de Digital House Coding School</p>
+            <figure class="project-imageContainer">
+                <img class="project-image" src="images/dh_electronics.png" width="500" height="300" alt="Portada del sitio web">
+            </figure>
         </article>
-        <article>
-            <h3>Dh Electronics</h3>
-            <h6>PHP - Laravel</h6>
-            <p><small><strong>Fecha:</strong> 10/01/2020</small></p>
-            <p><small><strong>Puedes verlo en:</strong> www.dhelectronics.dhalumnos.com</small></p>
-            <p>Dh Electronics es un e-commerce desarrollado en colaboración con 3 programadores en el marco de enseñanza de Digital House Coding School</p>
-        </article>
-        <article>
-            <h3>Dh Electronics</h3>
-            <h6>PHP - Laravel</h6>
-            <p><small><strong>Fecha:</strong> 10/01/2020</small></p>
-            <p><small><strong>Puedes verlo en:</strong> www.dhelectronics.dhalumnos.com</small></p>
-            <p>Dh Electronics es un e-commerce desarrollado en colaboración con 3 programadores en el marco de enseñanza de Digital House Coding School</p>
+        <article class="project2">
+            <h3 class="project2-title">Finanzas personales</h3>
+            <h6 class="project2-course">PHP - Laravel</h6>
+            <p class="project2-date"><small><strong>Fecha:</strong> 17/01/2020</small></p>
+            <p class="project2-url"><small><strong>Puedes verlo en:</strong>https://github.com/anthonytr/Finanzas-personales</small></p>
+            <p class="project2-description">Dh Electronics es un e-commerce desarrollado en colaboración con 3 programadores en el marco de enseñanza de Digital House Coding School</p>
+            <figure class="project-imageContainer">
+                <img class="project-image" src="images/dh_electronics.png" width="500" height="300" alt="Portada del sitio web">
+            </figure>
         </article>
     </section>
 
     <section id="eventos">
         <h2>Más sobre mi experiencia</h2>
-        <article>
-            <figure>
-                <img src="" alt="">
+        <article class="event">
+            <figure class="event-imageContainer">
+                <img class="event_image" src="" alt="">
             </figure> 
-            <h3>Charla Seguridad en redes sociales</h3>
-            <p></p>
-            <a href="">Ver Plática</a>        
+            <h3 class="event-title">Charla Seguridad en redes sociales</h3>
+            <p class="event-description"></p>
+            <a class="event-url" href="">Ver Plática</a>        
         </article>
     </section>
 
-    <section id="contacto">
-        <form action="/suscripcion/">
+    <section id="contacto" class="contact">
+        <form action="/suscripcion/" class="form-email">
             <h3>¿Creamos algo juntos?</h3>
             <input type="text" placeholder="Déjame tu email" value="" id="email">
             <button>Enviar</button>
         </form>
     </section>
-    <footer>footer</footer>
+    <footer class="footer">footer</footer>
 </body>
 </html>
