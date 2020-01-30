@@ -14,6 +14,7 @@ Valores
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
 }
 
 h1,
@@ -32,6 +33,7 @@ h1 {
     line-height: 1.5em;
     letter-spacing: -.2px;
     color: white;
+    margin: ;
 }
 
 h1 strong {
@@ -47,6 +49,19 @@ h1 strong {
     background-position-x: right;
 
 }
+
+.portfolio {
+    background: #fafafa;
+}
+
+.project {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+}
+
 .project-details {
     width: 500px;
 }
