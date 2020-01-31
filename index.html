@@ -8,12 +8,13 @@
     <title>Anthony Trillo</title>
     <link rel="icon" type="image/jpg"href="images/logo.jpg">
     <link href="https://fonts.googleapis.com/css?family=Asap|Fjalla+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
 
     <header class="header">
+        <div class="container">
             <figure class="logo">
                 <img src="images/logo.jpg" height="50" alt="Logo de http://anthonytrillo.com">
             </figure>
@@ -30,88 +31,99 @@
                     </li> 
                 </ol>
             </nav>
+        </div>         
     </header>
 
     <section class="hero">
-        <h1>
-            Hola! Soy <strong>Anthony Trillo</strong>  <br> Desarrollador PHP <br> Fullstack
-        </h1>
-        <!--<img src="images/hero.jpg" width="500" height="300" alt="Imagen principal">-->
+        <div class="container">
+            <h1>
+                Hola! Soy <strong>Anthony Trillo</strong>  <br> Desarrollador PHP <br> Fullstack
+            </h1>
+            <img class="hero-image" src="images/hero.jpg" width="500" height="300" alt="Imagen principal">
+        </div>      
     </section>
-
     <section id="portafolio" class="portfolio">
-        <h2>Portafolio (Proyectos Destacados)</h2>
-        <article class="project">
-            <div class="project-details">
-                <h3 class="project-title">Dh Electronics</h3>
-                <h6 class="project-course">PHP - Laravel</h6>
-                <p class="project-date"><small><strong>Fecha:</strong> 9/09/2019</small></p>
-                <p class="project-url"><small><strong>Puedes verlo en:</strong> www.dhelectronics.dhalumnos.com</small></p>
-                <p class="project-description">Dh Electronics es un e-commerce desarrollado en colaboración con 3 programadores en el marco de enseñanza de Digital House Coding School</p>
-            </div>
-            <figure class="project-imageContainer">
-                <img class="project-image" src="images/dh_electronics.png" width="500" height="300" alt="Portada del sitio web">
-            </figure>
-        </article>
-        <article class="project">
-            <div class="project-details">
-                <h3 class="project-title">Finanzas personales</h3>
-                <h6 class="project-course">PHP - Laravel</h6>
-                <p class="project-date"><small><strong>Fecha:</strong> 17/01/2020</small></p>
-                <p class="project-url"><small><strong>Puedes verlo en:</strong>https://github.com/anthonytr/Finanzas-personales</small></p>
-                <p class="project-description">Dh Electronics es un e-commerce desarrollado en colaboración con 3 programadores en el marco de enseñanza de Digital House Coding School</p>
-            </div>
-            <figure class="project-imageContainer">
-                <img class="project-image" src="images/dh_electronics.png" width="500" height="300" alt="Portada del sitio web">
-            </figure>
-        </article>
+        <div class="container">
+            <h2>Portafolio (Proyectos Destacados)</h2>
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Dh Electronics</h3>
+                    <h6 class="project-course">PHP - Laravel</h6>
+                    <p class="project-date"><small><strong>Fecha:</strong> 9/09/2019</small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en:</strong> www.dhelectronics.dhalumnos.com</small></p>
+                    <p class="project-description">Dh Electronics es un e-commerce desarrollado en colaboración con 3 programadores en el marco de enseñanza de Digital House Coding School</p>
+                </div>
+                <figure class="project-imageContainer">
+                    <img class="project-image" src="images/dh_electronics.png" width="500" height="300" alt="Portada del sitio web">
+                </figure>
+                </article>
+                <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Finanzas personales</h3>
+                    <h6 class="project-course">PHP - Laravel</h6>
+                    <p class="project-date"><small><strong>Fecha:</strong> 17/01/2020</small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en:</strong>https://github.com/anthonytr/Finanzas-personales</small></p>
+                    <p class="project-description">Dh Electronics es un e-commerce desarrollado en colaboración con 3 programadores en el marco de enseñanza de Digital House Coding School</p>
+                </div>
+                <figure class="project-imageContainer">
+                    <img class="project-image" src="images/dh_electronics.png" width="500" height="300" alt="Portada del sitio web">
+                </figure>
+            </article>
+        </div>
     </section>
-    <h2 class="evnet-list-title">Más sobre mi experiencia</h2>
+    <div class="container">
+        <h2 class="evnet-list-title">Más sobre mi experiencia</h2>
+    </div>
     <section id="eventos" class="event-list">
-        
-        <article class="event">
-            <figure class="event-imageContainer">
-                <img class="event_image" src="images/charla.JPG" width="500" height="300" alt="Charla sobre seguridad en las redes sociales">
-            </figure>
-            <div class="event-detail">
-                <h3 class="event-title">Charla Seguridad en redes sociales</h3>
-                <p class="event-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo dignissimos voluptatibus tenetur officia ullam fuga. Odit ab sint numquam enim, eligendi exercitationem quisquam perferendis provident deleniti aut dicta sapiente necessitatibus!</p>
-                <a class="event-url" href="">Ver Plática</a>   
-            </div>            
-        </article>
-        <article class="event">
-            <figure class="event-imageContainer">
-                <img class="event_image" src="images/charla.JPG" width="500" height="300" alt="Charla sobre seguridad en las redes sociales">
-            </figure>
-            <div class="event-detail">
-                <h3 class="event-title">Charla Seguridad en redes sociales</h3>
-                <p class="event-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro impedit voluptatem nam id assumenda quo enim provident hic! Minus eos, culpa rem neque dolorem praesentium! Animi sit in quisquam sed.</p>
-                <a class="event-url" href="">Ver Plática</a>  
-            </div>                  
-        </article>
+        <div class="container">
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event_image" src="images/charla.JPG" width="500" height="300" alt="Charla sobre seguridad en las redes sociales">
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">Charla Seguridad en redes sociales</h3>
+                    <p class="event-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo dignissimos voluptatibus tenetur officia ullam fuga. Odit ab sint numquam enim, eligendi exercitationem quisquam perferendis provident deleniti aut dicta sapiente necessitatibus!</p>
+                    <a class="event-url" href="">Ver Plática</a>   
+                </div>            
+                </article>
+                <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event_image" src="images/charla.JPG" width="500" height="300" alt="Charla sobre seguridad en las redes sociales">
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">Charla Seguridad en redes sociales</h3>
+                    <p class="event-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro impedit voluptatem nam id assumenda quo enim provident hic! Minus eos, culpa rem neque dolorem praesentium! Animi sit in quisquam sed.</p>
+                    <a class="event-url" href="">Ver Plática</a>  
+                </div>                  
+            </article>
+        </div>
     </section>
 
     <section id="contacto" class="contact">
-        <form action="/suscripcion/" class="form-email">
-            <h3>¿Creamos algo juntos?</h3>
-            <input type="text" placeholder="Déjame tu email" value="" id="email">
-            <button>Enviar</button>
-        </form>
-        <div class="social">
-            <a href="https://twitter.com/anthony_tx21" class="social-link twitter"></a>
-            <a href="https://www.linkedin.com/in/anthonytr/" class="social-link linkedin"></a>
-            <a href="https://github.com/anthonytr" class="social-link github"></a>
-            <a href="https://www.instagram.com/anthonytrillo_/?hl=es-la" class="social-link instagram"></a>
-        </div>
+        <div class="container">
+            <form action="/suscripcion/" class="form-email">
+                <h3>¿Creamos algo juntos?</h3>
+                <input type="text" placeholder="Déjame tu email" value="" id="email">
+                <button>Enviar</button>
+            </form>
+            <div class="social">
+                <a href="https://twitter.com/anthony_tx21" class="social-link twitter"></a>
+                <a href="https://www.linkedin.com/in/anthonytr/" class="social-link linkedin"></a>
+                <a href="https://github.com/anthonytr" class="social-link github"></a>
+                <a href="https://www.instagram.com/anthonytrillo_/?hl=es-la" class="social-link instagram"></a>
+            </div>
+        </div>   
     </section>
 
     <footer class="footer">
-        <div>
-            <p>Curso de desarrollo <img src="" alt=""> </p>
-        </div>
-        <div>
-            <p>Designed with pasion by</p>
-        </div>
+        <div class="container">
+            <div>
+                <p>Portafolio 2020<img src="" alt=""> </p>
+            </div>
+            <div>
+                <p>Codeado por Anthony Trillo</p>
+            </div>
+        </div>       
     </footer>
 
 </body>

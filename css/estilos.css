@@ -36,6 +36,10 @@ h1 {
     margin: 0;
 }
 
+h1 strong {
+    color: #026fff;
+}
+
 h2 {
     color: #026fff;
     text-transform: uppercase;
@@ -45,20 +49,20 @@ h2 {
     margin-bottom: 40px;
 }
 
-h1 strong {
-    color: #026fff;
-}
-
 .hero {
     height: 300px;
-    background-image: url('images/hero.jpg');
+    /* background-image: url('../images/hero.jpg'); */
     background-color: #1b2127;
-    background-size: 500px 300px;
+    /*background-size: 500px 300px;
     background-repeat: no-repeat;
-    background-position-x: right;
+    background-position-x: right;*/
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
 
+.hero-image {
+    object-fit: cover;
 }
 
 .portfolio {
@@ -129,6 +133,7 @@ figure {
     height: inherit;
     padding: 0 10px;
     color: white;
+    text-decoration: none;
 }
 
 .menu {
@@ -154,8 +159,17 @@ figure {
     justify-content: space-between;
 }
 
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color: white;
+}
+
 .event-list {
     display: flex;
+    flex-wrap: wrap;
 } 
 
 .event-list-title {
@@ -206,11 +220,10 @@ figure {
     height: 150px;
     display: flex;
     align-items: center;
-
+    justify-content: space-between;
 }
 
 .social {
-   
 }
 
 .social-link {
@@ -223,21 +236,19 @@ figure {
 
 
 .social-link.twitter {
-    background-image: url('images/twitter.svg');
+    background-image: url('../images/twitter.svg');
 }
 
 .social-link.linkedin {
-    background-image: url('images/linkedin.svg');
-    
+    background-image: url('../images/linkedin.svg'); 
 }
 
 .social-link.github {
-    background-image: url('images/github.svg');
-    
+    background-image: url('../images/github.svg');
 }
 
 .social-link.instagram {
-    background-image: url('images/instagram.svg');
+    background-image: url('../images/instagram.svg');
 }   
 
 .form-email input {
@@ -245,7 +256,7 @@ figure {
     border-radius: 5px;
     border-style: solid;
     padding: 10px 20px 10px 25px;
-    background-image: url('images/gmail.svg');
+    background-image: url('../images/gmail.svg');
     background-size: 15px 15px;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -265,3 +276,15 @@ figure {
 .form-email h3 {
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+.container {
+    /*border: 2px solid red;*/
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: wrap;
+}
+
