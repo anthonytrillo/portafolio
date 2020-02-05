@@ -92,19 +92,7 @@ h2 {
 .project-title {
     font-size: 30px;
     margin-top: 0;
-    margin-bottom: 10px;
-}    
-
-.project-description {
-    font-size: 8em;
-}
-
-.project strong {
-    font-family: 'Fjalla One', sans-serif;
-}
-
-.project-details {
-    width: auto;
+    marg;
 }
 
 .project-imageContainer {
@@ -330,8 +318,8 @@ figure {
         display: block;
     }
     .project-imageContainer {
-    width: auto;
-    text-align: center;
+        width: auto;
+        text-align: center;
     }
     .project-details {
         width: auto;
