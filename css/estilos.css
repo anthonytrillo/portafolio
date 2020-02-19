@@ -65,22 +65,22 @@ h1 {
 }
 
 h1 strong {
-    color: #026fff;
+    color: #00b8d4;
 }
 
 h2 {
-    color: #026fff;
+    color: #00b8d4;
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     font-size: 24px;
-    margin-bottom: 40px;
+    margin: 40px 0 20px;
 }
 
 .hero {
     height: 300px;
     /* background-image: url('../images/hero.jpg'); */
-    background-color: #1b2127;
+    background-color: #006064;
     /*background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;*/
@@ -144,7 +144,7 @@ h2 {
 }
 
 .header {
-    background-color: #1b2127;
+    background-color: #006064;
     color: white;
     display: flex;
     height: 70px;
@@ -188,7 +188,7 @@ figure {
 
 .footer {
     color: white;
-    background-color: #1b2127;
+    background-color: #006064;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -218,7 +218,7 @@ figure {
     flex-shrink: 0;
     border-radius: 10px;
     overflow: hidden;
-    background: #f4fbff;
+    background: #e0f7fa;
 }
 
 .event img {
@@ -243,15 +243,15 @@ figure {
 }
 
 .event-url {
-    border: 1px solid #056fff;
-    color: #056fff;
+    border: 1px solid #00838f;
+    color: #00838f;
     padding: 5px 20px;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .contact {
-    background-color: #056fff;
+    background-color: #0097a7;
     color: white;
     height: 150px;
     display: flex;
@@ -407,7 +407,7 @@ figure {
     }
     .menu {
         position: fixed;
-        background: rgba(5, 111, 255, .9);
+        background: rgba(0, 172, 193, .9);
         z-index: 3;
         top: 0;
         left: -100vw;
