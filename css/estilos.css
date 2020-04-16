@@ -39,7 +39,6 @@ Valores
     -moz-osx-font-smoothing: grayscale;
   }
 
-
 body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0px;
@@ -193,6 +192,7 @@ figure {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 
 .footer img {
@@ -203,10 +203,15 @@ figure {
     color: white;
 }
 
+.footer-description {
+    display: flex;
+    align-items: center;
+}
+
 .event-list {
     display: flex;
     flex-wrap: wrap;
-} 
+}
 
 .event-list-title {
     margin-left: 20px;
@@ -235,7 +240,6 @@ figure {
     border-radius: 10px;
     padding: 20px;
     text-align: center;
-    
 }
 
 .event-description {
@@ -253,18 +257,23 @@ figure {
 .contact {
     background-color: #0097a7;
     color: white;
-    height: 150px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
+.social {
+    display: flex;
+    align-items: center;
+}
+
 .social-link {
     display: inline-block;
     width: 50px;
     height: 50px;
-    margin: 0 5px;
+    margin: 10px 5px;
     background-size: 50px 50px;
 }
 
@@ -282,7 +291,7 @@ figure {
 
 .social-link.instagram {
     background-image: url('../images/instagram.svg');
-}   
+}
 
 .form-email input {
     border-color: gray;
