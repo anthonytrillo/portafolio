@@ -52,7 +52,7 @@ h5,
 h6 {
     font-family: 'Fjalla One', sans-serif;
     font-weight: normal;
-    
+    margin-bottom: 15px;
 }
 
 h1 {
@@ -74,6 +74,11 @@ h2 {
     font-weight: bold;
     font-size: 24px;
     margin: 40px 0 20px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
 }
 
 .hero {
@@ -99,7 +104,7 @@ h2 {
 }
 
 .project {
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     border-radius: 10px;
     margin-bottom: 15px;
     padding: 20px;
@@ -132,7 +137,7 @@ h2 {
 
 .project-imageContainer {
     width: 50%;
-} 
+}
 
 .project-imageContainer img {
     max-width: 100%;
@@ -256,12 +261,19 @@ figure {
 
 .contact {
     background-color: #0097a7;
-    color: white;
     height: 500px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.mb-5 {
+    margin-top: 3rem;
+}
+
+.btn-info {
+    border-radius: 5px;
 }
 
 .social {
@@ -293,7 +305,7 @@ figure {
     background-image: url('../images/instagram.svg');
 }
 
-.form-email input {
+/* .form-email input {
     border-color: gray;
     border-radius: 5px;
     border-style: solid;
@@ -303,9 +315,9 @@ figure {
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 5px;
-}
+} */
 
-.form-email button {
+/* .form-email button {
     display: block;
     background: transparent;
     color: white;
@@ -313,11 +325,11 @@ figure {
     border-radius: 5px;
     width: 100px;
     margin-top: 10px;
-}
+} */
 
-.form-email h3 {
+/* .form-email h3 {
     font-family: 'Source Sans Pro', sans-serif;
-}
+} */
 
 .container {
     /*border: 2px solid red;*/
