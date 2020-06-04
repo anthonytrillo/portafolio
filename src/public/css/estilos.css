@@ -70,10 +70,13 @@ h3 {
 .hero {
     height: 300px;
     /* background-image: url('../images/hero.jpg'); */
-    background-color: #006064;
+    /* background-color: #006064; */
     /*background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;*/
+    background: #44A08D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -134,7 +137,10 @@ h3 {
 }
 
 .header {
-    background-color: #006064;
+    /* background-color: #006064; */
+    background: #44A08D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
     display: flex;
     height: 70px;
@@ -178,7 +184,10 @@ figure {
 
 .footer {
     color: white;
-    background-color: #006064;
+    /* background-color: #006064; */
+    background: #44A08D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -218,7 +227,7 @@ figure {
 }
 
 .event img {
-    width: 480px;
+    width: 600px;
     height: 200px;
     object-fit: cover;
 }
@@ -246,7 +255,7 @@ figure {
 }
 
 .contact {
-    background-color: #0097a7;
+    background: #fafafa;
     height: 500px;
     display: flex;
     align-items: center;
