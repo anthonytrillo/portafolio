@@ -16,11 +16,11 @@ router.post('/send-email', async (req, res) => {
   `;
 
   const transporter = nodemailer.createTransport({
-    host: 'mail.fazttech.xyz',
+    host: 'mail.ejemplo.com',
     port: 26,
     secure: false,
     auth: {
-      user: 'test@fazttech.xyz',
+      user: 'ejemplo@mail.com',
       pass: 'contraseña'
     },
     tls: {
@@ -29,8 +29,8 @@ router.post('/send-email', async (req, res) => {
   });
 
   const info = await transporter.sendMail({
-    from: "'FaztTech Server' <test@fazttech.xyz>",
-    to: 'fazttech@gmail.com',
+    from: "'Ejemplo Server' <ejemplo@mail.com>",
+    to: 'ejemplo@mail.com',
     subject: 'Website contact form',
     html: contentHTML
   });
